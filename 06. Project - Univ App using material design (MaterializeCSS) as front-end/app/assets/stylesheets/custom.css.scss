@@ -1,0 +1,107 @@
+@import "bootstrap";
+
+body {
+  padding-top: 70px;
+  background-color: #ddd;
+}
+
+.navbar {
+  background: #08c3d2;
+}
+
+.navbar-header a.navbar-brand { 
+  color: #ff0000;
+  padding-top: 25px; 
+  padding-bottom: 50px; 
+  font-size: 150%;
+  font-weight: bold; 
+}
+
+.navbar-default .navbar-nav > li > a { 
+  color: #ff0000;
+  font-size: 120%;
+  padding-top: 25px;
+  padding-bottom: 30px; 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff; 
+}
+
+.navbar-header a.navbar-brand:hover {
+  color: #ffffff; 
+}
+
+.panel-div {
+  margin-top: 30px; 
+}
+
+.panel-default > .panel-heading {
+  background-color: #fff; 
+}
+
+.form-heading { 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 200%;
+}
+
+section.site-title { 
+  background-color: #fff; 
+  padding: 75px 200px; 
+  margin-top: 200px;
+}
+section.site-title h1 { 
+  font-size: 32px;
+  margin-bottom: 30px; 
+}
+section.site-title p { 
+  font-size: 24px;
+  margin-bottom: 30px; 
+}
+section.site-title p > a, section.site-title h1 > a {
+  color: #f00; 
+}
+
+// Devise Error Messages
+
+#error_explanation {
+  background-color: #f2dede;
+  color: #a94442;
+  text-align: left;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+#error_explanation h2 {
+  font-size: 150%;
+}
+
+.card {
+  width: 949px;
+  height: 392px;
+  background-image: image-url('cards.png');
+  background-repeat: no-repeat;
+}
+
+.card-size {
+  width: 73px;
+  height: 98px;
+  display: inline-block;
+}
+
+.card-back {
+  width: 73px;
+  height: 98px;
+  background-image: image-url('card_back.png');
+  background-repeat: no-repeat;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.game-prompt {
+  font-family: cursive;
+  margin-bottom: 20px;
+}
